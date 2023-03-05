@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// set name equal to Dane
+// if name is strict equal(which will return false if datatypes are different) to mary output hi mary
+// else output how do you do which will happen becasue they arnt equal
+//consol log will be how do you do
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// create variable secret and set code equal to number 123 
+// code is equal to 123 so set var secret to equal 'super' and multiply code by 2
+// if code is greater than 250 which it isnt so secret will not be then set to equal 'duper'
+// consol log will be 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+//set isStudent to boolean true, age to number 34 and zip to number 55407
+//isStudent is does equal true but zip is not greater than 80000 so next conditional
+//istudnet is not false but the or condition is not meet either because age is over 30 so next conditional
+//is studnet is equal to true so the conditional end with consol log 'welcome to prime'
 
 //CODE
 /*
@@ -136,6 +136,8 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  colorTwo = 'pruple';
+  FIX also add colortwo being set to purple
 }
 */
 
@@ -147,9 +149,10 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
-if (temp > 39 || time >= 4) {
+if (temp > 39 && time >= 4) {
   console.log('throw away the food!');
 }
+FIX it was an AND not an OR so changed || to &&
 */
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
@@ -160,10 +163,12 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
-if(minAge <= age) {
-  console.log('no entry');
-} else {
+if(age >= minAge) {
   console.log('enter');
+} else {
+  console.log('no entry');
 }
+FIX checks if age is greater than equal to min age so i corrected the order not sure if it was nessecary from a logics standpoint
+it doesnt specify the else in the description but the outputs were reversed from the description.
 */
 
