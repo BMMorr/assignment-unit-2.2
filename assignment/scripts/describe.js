@@ -128,10 +128,11 @@ if (number >= 2) {
 //4. We start with three variables -- colorOne is set to 'blue' and 
 // colorTwo is set to 'red', and mix is set to true. We check if mix is true 
 // -- it is, so we set colorOne and colorTwo to 'purple'
+// resubmission i didnt catch that color one and two were set to the wrong colors. i spent alot longer than id like toa dmit trying to figure out what was wrong with this
 
 /*
-let colorOne = 'red';
-let colorTwo = 'blue';
+let colorOne = 'blue';
+let colorTwo = 'red';
 let mix = true;
 
 if (mix === true) {
